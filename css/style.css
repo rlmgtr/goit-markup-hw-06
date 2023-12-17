@@ -735,12 +735,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.footer-form-button {
+.footer-submit {
   min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -754,7 +755,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-subscribe-svg {
   margin-left: 16px;
-  
+
 }
 
 
