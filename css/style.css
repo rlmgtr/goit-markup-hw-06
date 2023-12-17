@@ -716,6 +716,48 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
+.form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white);
+}
+
+.E-mail {
+  color: var(--white);
+
+}
+
+.footer-form-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-subscribe-svg {
+  margin-left: 16px;
+  
+}
+
+
 
 /* ---------------------- Data Modal style ----------------------*/
 
