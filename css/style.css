@@ -800,7 +800,7 @@ margin-bottom: 4px;
 position: relative;
 }
 
-.footer-input {
+.modal-input {
 width: 100%;
 height: 40px;
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -811,7 +811,7 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-input:focus {
+.modal-input:focus {
   border-color: var(--iris);
 }
 
@@ -872,7 +872,7 @@ pointer-events: none;
   border: none;
 }
 
-.footer-input:focus {
+.modal-input:focus {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
