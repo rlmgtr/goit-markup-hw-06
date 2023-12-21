@@ -922,12 +922,7 @@ pointer-events: none;
     border: none;
     fill: var(--cloud);
   }
-/* try */
-  .label-span:checked {
-    background-color:var(--ocean);
-    border: none;
-    fill: var(--cloud);
-  }
+
 
 .modal-button-close:hover,
 .modal-button-close:focus {
