@@ -906,7 +906,7 @@ pointer-events: none;
 
 }
 
-.check-box-span {
+.check-box-input {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -917,7 +917,7 @@ pointer-events: none;
   justify-content: center;
   }
 
-  .check-box-input:checked+.check-box-span {
+  .check-box-input:checked+.check-svg {
     background-color:var(--ocean);
     border: none;
     fill: var(--cloud);
