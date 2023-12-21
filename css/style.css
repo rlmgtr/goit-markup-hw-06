@@ -917,7 +917,7 @@ pointer-events: none;
   justify-content: center;
   }
 
-  .user-privacy-input:checked + .label-span {
+  .user-privacy-input:checked+.label-span {
     background-color:var(--ocean);
     border: none;
     fill: var(--cloud);
