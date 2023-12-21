@@ -906,7 +906,7 @@ pointer-events: none;
 
 }
 
-.label-span {
+.check-box-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -917,7 +917,7 @@ pointer-events: none;
   justify-content: center;
   }
 
-  .check-box-input:checked+.label-span {
+  .check-box-input:checked+.check-box-span {
     background-color:var(--ocean);
     border: none;
     fill: var(--cloud);
