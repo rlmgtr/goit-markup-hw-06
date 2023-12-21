@@ -596,6 +596,7 @@ margin-bottom: 16px;
   }
 
 .footer-socmed-div {
+  padding-bottom: 50px;
   list-style: none;
 }
 
@@ -686,7 +687,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.footer-form-div
+.footer-form-div {
+  padding-bottom: 70px;
+  padding-left: 90px;
+}
 
 .footer-form-p {
   margin-bottom: 16px;
@@ -703,7 +707,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-label {
-  
 }
 
 .form-input {
@@ -718,6 +721,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--white);
+  top: 140px;
 }
 
 .E-mail {
