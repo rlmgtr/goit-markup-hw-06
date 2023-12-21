@@ -907,7 +907,7 @@ pointer-events: none;
   justify-content: center;
   }
 
-  .check-box-input:checked + .check-box-input {
+  .check-box-input:checked+.check-box-input {
     background-color:var(--ocean);
     border: none;
     fill: var(--cloud);
