@@ -915,7 +915,7 @@ pointer-events: none;
     justify-content: center;
     }
 
-.checkbox:checked + .checkbox-span {
+.checkbox:checked + .checkbox-span .user-privacy-label {
 background-color: var(--ocean);
 border: none;
 fill: var(--cloud);
