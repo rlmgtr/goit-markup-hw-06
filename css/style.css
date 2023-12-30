@@ -843,7 +843,6 @@ outline: transparent;
 resize: none;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border: 1px solid rgba(46, 47, 66, 0.4);
-border-color: var(--iris);
 }
 
 .is-hidden {
@@ -924,7 +923,7 @@ pointer-events: none;
     }
 
 
-  .check-box-input:checked+.check-box-input {
+  .check-box-input:checked+.check-box-input-span {
   border: none;
   position: absolute;
   fill: var(--cloud);
