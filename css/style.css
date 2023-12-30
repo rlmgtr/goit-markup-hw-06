@@ -920,9 +920,9 @@ pointer-events: none;
 
 
   .check-box-input:checked + .check-box-input-span {
-  background-color:var(--ocean);
-  border:none;
-  fill:var(--cloud);
+  background-color : #404bbf; 
+  border: none;
+  fill: #f4f4fd;
   }
 
 
