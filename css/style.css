@@ -904,10 +904,9 @@ pointer-events: none;
 
 }
 
-.check-box-input {
-  }
+.check-box-input {}
 
-  .check-box-input-span {
+.check-box-input-span {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -919,11 +918,7 @@ pointer-events: none;
     }
 
 
-  .check-box-input:checked + .check-box-input-span {
-  background-color : #404bbf; 
-  border: none;
-  fill: #f4f4fd;
-  }
+
 
 
 .modal-button-close:hover,
