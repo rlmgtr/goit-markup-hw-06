@@ -905,7 +905,6 @@ pointer-events: none;
 }
 
 .check-box-input {
-  
   }
 
   .check-box-input-span {
@@ -920,10 +919,10 @@ pointer-events: none;
     }
 
 
-  .check-box-input:checked + .modal-l > .check-box-input-span {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--cloud);
+  .check-box-input:checked + .check-box-input-span {
+  background-color:var(--ocean);
+  border:none;
+  fill:var(--cloud);
   }
 
 
