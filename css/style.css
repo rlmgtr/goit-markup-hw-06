@@ -917,11 +917,16 @@ pointer-events: none;
 
 .checkbox:checked + .checkbox-span {
 background-color: var(--ocean);
-border: none;
-fill: var(--cloud);
 }
 
 
+.checkbox:checked + .checkbox-span {
+  border: none;
+}
+
+.checkbox:checked + .checkbox-span {
+  fill: var(--cloud);
+  }
 
 
 .modal-button-close:hover,
