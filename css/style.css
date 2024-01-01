@@ -915,12 +915,11 @@ pointer-events: none;
     justify-content: center;
     }
 
-.checkbox:checked + .checkbox-span {
+.checkbox:checked + .user-privacy-label > .checkbox-span {
 background-color: var(--ocean);
 border: none;
 fill: var(--cloud);
 }
-
 
 .modal-button-close:hover,
 .modal-button-close:focus {
