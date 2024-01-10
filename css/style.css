@@ -948,11 +948,11 @@ fill: var(--cloud);
 }
 /* ----------- --------------This is for hw7--------------------------- ------------*/ 
 
-@media screen and (min-width: 1158px) {}
+@media screen and (min-width: 1158px) and  {}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px)  and {}
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 428px) and  {
 
   
 
