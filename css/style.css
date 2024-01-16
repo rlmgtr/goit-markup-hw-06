@@ -148,25 +148,18 @@ img {
 
 /* ----------- index first section ------------*/
 .first-section {
+  margin: auto;
   background-color: var(--navyblue);
-/* hw3 */
-  padding: 188px 0 188px;
-  justify-content: center;
-  align-items: center;
-  margin: auto 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../images/seconebgimg.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  height: 600px;
+  flex-shrink: 0;
+  padding: 188px 0;
+  background-image: url(../images/dark-hero-bg.png), url(../images/hero-bg.jpg),
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: 1440px, 1440px;
 }
 
-.hero-section {
-  padding: 188px 0;
-  max-width: 1440px;
-  margin: 0 auto;
-}
 
 .first-section-header {
   font-size: 56px;
@@ -557,7 +550,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-style {
-  /* class not deleted yet for future reference - moved properties in div class to align boarder color */
+  background-color: var(--navyblue);
+  padding: 100px 0;
+  margin: auto;
 }
 
 .footer-paragraph {
